@@ -35,7 +35,7 @@ header {
     width: 22rem;
     height: 30rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(50% - 10rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
@@ -78,5 +78,12 @@ header {
 
     .scroll_down {
         transform: rotate(90deg);
+    }
+
+    .me {
+        margin-top: 10rem;
+        height: 30rem;
+        width: 17rem;
+        left: calc(50% - 8rem);
     }
 }
