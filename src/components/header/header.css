@@ -64,10 +64,18 @@ header {
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ==========*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     header {
-        height: 100vh;
+        height: 90vh;
     }
+
+    .me {
+        margin-top: 20rem;
+        height: 30rem;
+        width: 17rem;
+        left: calc(50% - 8rem);
+    }   
+     
 }
 
 /* ============== MEDIA QUERIES (SMALL DEVICES) ==========*/
@@ -81,7 +89,7 @@ header {
     }
 
     .me {
-        margin-top: 10rem;
+        margin-top: 5rem;
         height: 30rem;
         width: 17rem;
         left: calc(50% - 8rem);
