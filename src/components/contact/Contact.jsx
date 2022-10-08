@@ -75,12 +75,14 @@ const Contact = () => {
           <CssTextField 
             label="Your Full Name" 
             id="name" 
+            name="name"
             sx={{ input: { color: 'white' } }}
             fullWidth
           />
           <CssTextField 
             label="Your Email" 
             id="email" 
+            name="email"
             sx={{ input: { color: 'white' } }}
             fullWidth
           />
@@ -88,6 +90,7 @@ const Contact = () => {
             className = "textfield"
             label="Your Message" 
             id="message" 
+            name="message"
             multiline
             inputProps={{ style: { color: "white" } }}
             rows={7}
