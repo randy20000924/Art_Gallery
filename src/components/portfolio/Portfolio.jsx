@@ -1,6 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.gif'
+import IMG2 from '../../assets/portfolio2.gif'
 
 const data = [
   {
@@ -8,6 +9,12 @@ const data = [
     image: IMG1,
     title: 'Vehicle Data Visualization Web Page',
     github: 'https://github.com/randy20000924/CarTrace'
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: "McDonald's Ordering Machine",
+    github: 'https://github.com/randy20000924/self-order-kiosk'
   }
 ]
 
@@ -27,7 +34,7 @@ function Portfolio() {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio_item-cta">
-                  <a href={github} className='btn' target='_blank'>Github</a>
+                  <a href={github} className='btn' target='_blank' rel="noreferrer noopenner">Github</a>
                 </div>
               </article>
             )

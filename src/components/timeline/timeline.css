@@ -1,0 +1,19 @@
+.vertical-timeline-element-title,
+.vertical-timeline-element-subtitle,
+.vertical-timeline-element-description {
+    color: white;
+}
+  
+.date {
+    color: rgb(201, 251, 255);
+}
+  
+/* ============== MEDIA QUERIES (MEDIUM DEVICES) ==========*/
+@media screen and (max-width: 1024px) {
+    
+}
+
+/* ============== MEDIA QUERIES (SMALL DEVICES) ==========*/
+@media screen and (max-width: 600px) {
+
+}

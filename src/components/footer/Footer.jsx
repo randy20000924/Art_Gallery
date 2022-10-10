@@ -5,7 +5,6 @@ import facebook from 'react-useanimations/lib/facebook'
 import instagram from 'react-useanimations/lib/instagram'
 import twitter from 'react-useanimations/lib/twitter'
 
-
 function Footer() {
   return (
     <footer>
