@@ -17,6 +17,7 @@ let timelineElements = [
         "Major in Computer Science and Information Engineering",
       date: "September 2019 - June 2023",
       icon: "school",
+      url: "https://csie.cgu.edu.tw/"
     },
     {
       id: 2,
@@ -25,6 +26,7 @@ let timelineElements = [
       description: "Preprocessing data from AWS EC2 and deploy on the official website. Apply the data by Chart.js, Google Maps API and visualize the trace of autopilot car on website.",
       date: "June 2022 - August 2022",
       icon: "work",
+      url: "https://turing-drive.com/en/home-en/"
     },
     
 ];
@@ -55,8 +57,8 @@ function Timeline() {
                 <h3 className="vertical-timeline-element-title">
                   {element.title}
                 </h3>
-                <h5 className="vertical-timeline-element-subtitle">
-                  {element.location}
+                <h5 className="vertical-timeline-element-subtitle" >
+                  <a href={element.url} target="_blank" rel="noreferrer">{element.location}</a>
                 </h5>
                 <p id="description" className='vertical-timeline-element-description'>{element.description}</p>
               </VerticalTimelineElement>
