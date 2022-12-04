@@ -14,15 +14,15 @@ let timelineElements = [
       title: "Chang Gung University",
       location: "Taoyuan, Taiwan",
       description:
-        "Major in Information Engineering",
+        "Major in Computer Science and Information Engineering",
       date: "September 2019 - June 2023",
       icon: "school",
     },
     {
       id: 2,
       title: "Frontend Developer",
-      location: "New Taipei City",
-      description: "Preprocessing data from AWS EC2 and deploy on the official website. Apply the data by Chart.js, Google Maps API etc.",
+      location: "Turing Drive",
+      description: "Preprocessing data from AWS EC2 and deploy on the official website. Apply the data by Chart.js, Google Maps API and visualize the trace of autopilot car on website.",
       date: "June 2022 - August 2022",
       icon: "work",
     },
