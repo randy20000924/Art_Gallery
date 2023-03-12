@@ -1,0 +1,84 @@
+.titleText {
+    color: white;
+    font-size: 3rem;
+    display: grid;
+    justify-content: center;
+}
+
+.searchbar {
+    color: rgb(78, 31, 187);
+    position: relative;
+    font-size: 2rem;
+    text-align:center;
+    border-radius: 20rem 20rem 20rem 20rem;
+    font-family: "Microsoft JhengHei";
+    border-color:#aaaaee;
+    border-width:5px;
+    border-style:solid;
+    padding:10px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.suggest {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.searchBack {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.card-image{
+    height: 600px; 
+    width:500px; 
+ }
+
+.searchbarposition {
+    position: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    justify-content: center;
+}
+
+.searchEntry {
+    margin-top: 1rem;
+    text-align: center;
+    border-color:#37c54c;
+    border-width:5px;
+    border-style:groove;
+    border-radius: 2rem;
+    padding: 5px;
+}
+
+.searchEntry:hover {
+    background-image: url("/src/assets/hoverbg.png");
+    border-color: var(--color-primary-variant);
+    cursor: url("/src/assets/BOOBA.png"), auto;
+}
+
+.picture {
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+}
+
+.buttons {
+    display: flex;
+    margin: auto;
+}
+
+  
+
+
+
+

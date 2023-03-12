@@ -1,28 +1,17 @@
 import React from 'react'
 import './header.css'
-import CTA from './CTA'
-import ME from '../../assets/me.png'
-import HeaderSocials from './HeaderSocials'
-import UseAnimations from "react-useanimations";
-import arrowDown from 'react-useanimations/lib/arrowDown'
+import ss from '../../assets/logo.png'
+
 
 const Header = () => {
   return (
     <header>
       <div className="container header_container">
-        <h2>Hello I'm</h2>
-        <h1>Randy Chang</h1>
-        <h5 className="text-light">A Front-End Developer</h5>
-        <CTA />
-        <HeaderSocials />
-
+        <h1 className='h10'>Art Gallery</h1>
         <div className="me">
-          <img src={ME} alt="me" />
+          <img src={ss} alt="me"  className='img'/>
         </div>
-
-        <a href="#contact" className='scroll_down'>Scroll Down</a>
-        <a className='scroll_down-animation'><UseAnimations animation={arrowDown} strokeColor="#FFFFFF" size={40}/></a>
-      </div>
+      </div>  
     </header>
   )
 }
